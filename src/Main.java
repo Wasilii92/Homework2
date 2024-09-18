@@ -40,17 +40,16 @@ paper = paper+4;
         System.out.println(masOst);
         var obsch=640;
         var norm=8;
-        var kSotr=640/8;
+        var kSotr=obsch/norm;
         System.out.print("Всего работников в компании -");
     System. out. print( kSotr);
         System.out.println(" человек");
         var newKSotr=kSotr+94;
-        var newObsch=newKSotr*8;
+        var newObsch=newKSotr*norm;
         System.out.print("Если в компании работает ");
         System.out.print(newKSotr);
         System.out.print(" то всего ");
         System.out.print(newObsch);
         System.out.print(" часов может быть поделено между сотрудниками");
     }
-
 }
