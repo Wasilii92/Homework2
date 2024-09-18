@@ -41,15 +41,10 @@ paper = paper+4;
         var obsch=640;
         var norm=8;
         var kSotr=obsch/norm;
-        System.out.print("Всего работников в компании -");
-    System. out. print( kSotr);
-        System.out.println(" человек");
+        System.out.println("Всего работников в компании - "+kSotr+" человек");
         var newKSotr=kSotr+94;
         var newObsch=newKSotr*norm;
-        System.out.print("Если в компании работает ");
-        System.out.print(newKSotr);
-        System.out.print(" то всего ");
-        System.out.print(newObsch);
-        System.out.print(" часов может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает "+newKSotr+" то всего "+newObsch+
+                " часов может быть поделено между сотрудниками");
     }
 }
